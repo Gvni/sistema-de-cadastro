@@ -3,7 +3,7 @@
 > **Status do projeto**: *Em desenvolvimento (0.1%)*<br><br>
 Para rodar o projeto em sua máquina, por favor digite:
 ```
-npm install react
+node app.js
 ```
 ## IMPORTANTE
 > Esse projeto é para fins de aprendizagem no ambiente GitHub, não sendo necessariamente um projeto válido.
