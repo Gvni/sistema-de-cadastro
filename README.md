@@ -29,10 +29,29 @@ Tópicos numerados
   1.2 Segundo subtópico<br>
 2. Segundo tópico<br>
 3. Terceiro tópico<br><br>
-Tópicos de listas:<br>
-- Item 1 da lista<br>
-- Item 2 da lista<br>
-  - Subitem 1 do item 2<br>
-  - Subitem 2 do item 2<br>
+
+
+Principais comandos do Git Bach:<br>
+- Para clonar o projeto:
+  - *git clone url_do_projeto*
+
+- Para ***enviar*** arquivos ao GitHub:
+  - Apenas 1 arquivo:
+    - *git push app.js -m "mensagem explicativa"*
+  - Todos os arquivos:
+    - *git push . -m "mensagem explicativa"*
+
+- Para fazer o commit (local)<br>
+  - Commit de apenas 1 arquivo:
+    - *git commit app.js -m "texto explicativo do commit"*
+  - Commit de todo o projeto:
+    - *git commit . -m "texto explicativo do commit"*
+
+
+- Para restaurar determinada versão dos códigos:<br>
+  - Restaurar apenas 1 arquivo ***(xxxxxxx é o hash do código)***:
+    - *git restore*<br>
+  - Restaurar todo o projeto ***(xxxxxxx é o hash do código)***:
+    - *git restore . xxxxxxx*<br>
 
 Última alteração no arquivo README.md
