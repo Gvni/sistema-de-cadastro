@@ -30,6 +30,8 @@ Tópicos numerados
 2. Segundo tópico<br>
 3. Terceiro tópico<br><br>
 
+> Site (da Alura) que contém um manual resumido sobre **Git/GitHub**:
+  - (Manual do Git e GitHub)[https://guilhermeonrails.github.io/manual-do-git-e-github/]
 
 > Site que contém diversas dicas sobre o **git log**:
   - (***git lot cheatsheet***)[https://devhints.io/git-log]
