@@ -42,6 +42,8 @@ Principais comandos do Git Bach:<br>
   - *git push app.js -m "mensagem explicativa"*
 - Todos os arquivos:
   - *git push . -m "mensagem explicativa"*
+- Forçar um *push*:
+  - *git push --force origin main*
 
 > Para fazer o commit (local)<br>
 - Commit de apenas 1 arquivo:
