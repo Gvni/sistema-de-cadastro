@@ -31,10 +31,10 @@ Tópicos numerados
 3. Terceiro tópico<br><br>
 
 > Site (da Alura) que contém um manual resumido sobre **Git/GitHub**:
-  - (Manual do Git e GitHub)[https://guilhermeonrails.github.io/manual-do-git-e-github/]
+  - [Manual do Git e GitHub](https://guilhermeonrails.github.io/manual-do-git-e-github/)
 
 > Site que contém diversas dicas sobre o **git log**:
-  - (***git lot cheatsheet***)[https://devhints.io/git-log]
+  - [git lot cheatsheet](https://devhints.io/git-log)
 Principais comandos do Git Bach:<br>
 > Para clonar o projeto:
 - *git clone url_do_projeto*
