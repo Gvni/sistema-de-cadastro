@@ -31,27 +31,33 @@ Tópicos numerados
 3. Terceiro tópico<br><br>
 
 
+> Site que contém diversas dicas sobre o **git log**
 Principais comandos do Git Bach:<br>
-- Para clonar o projeto:
-  - *git clone url_do_projeto*
+> Para clonar o projeto:
+- *git clone url_do_projeto*
 
-- Para ***enviar*** arquivos ao GitHub:
-  - Apenas 1 arquivo:
-    - *git push app.js -m "mensagem explicativa"*
-  - Todos os arquivos:
-    - *git push . -m "mensagem explicativa"*
+> Para ***enviar*** arquivos ao GitHub:
+-  Apenas 1 arquivo:
+  - *git push app.js -m "mensagem explicativa"*
+- Todos os arquivos:
+  - *git push . -m "mensagem explicativa"*
 
-- Para fazer o commit (local)<br>
-  - Commit de apenas 1 arquivo:
-    - *git commit app.js -m "texto explicativo do commit"*
-  - Commit de todo o projeto:
-    - *git commit . -m "texto explicativo do commit"*
+> Para fazer o commit (local)<br>
+- Commit de apenas 1 arquivo:
+  - *git commit app.js -m "texto explicativo do commit"*
+- Commit de todo o projeto:
+  - *git commit . -m "texto explicativo do commit"*
 
+> Para visualizar todos os commits<br>
+- Numa linha (cada):
+  - *git log --oneline*
+- Detalhado:
+  - *git log -p*
+- Formatado:
+  - *git log --pretty="format:%h %s"*
 
-- Para restaurar determinada versão dos códigos:<br>
-  - Restaurar apenas 1 arquivo ***(xxxxxxx é o hash do código)***:
-    - *git restore*<br>
-  - Restaurar todo o projeto ***(xxxxxxx é o hash do código)***:
-    - *git restore . xxxxxxx*<br>
-
-Última alteração no arquivo README.md
+> Para restaurar determinada versão dos códigos:<br>
+- Restaurar apenas 1 arquivo ***(xxxxxxx é o hash do código)***:
+  - *git restore*<br>
+- Restaurar todo o projeto ***(xxxxxxx é o hash do código)***:
+  - *git restore . xxxxxxx*<br>
