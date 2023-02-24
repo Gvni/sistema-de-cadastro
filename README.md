@@ -31,7 +31,8 @@ Tópicos numerados
 3. Terceiro tópico<br><br>
 
 
-> Site que contém diversas dicas sobre o **git log**
+> Site que contém diversas dicas sobre o **git log**:
+  - (***git lot cheatsheet***)[https://devhints.io/git-log]
 Principais comandos do Git Bach:<br>
 > Para clonar o projeto:
 - *git clone url_do_projeto*
